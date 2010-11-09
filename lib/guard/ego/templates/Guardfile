@@ -1,0 +1,3 @@
+guard 'ego' do
+  watch('Guardfile')
+end

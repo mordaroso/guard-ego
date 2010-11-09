@@ -1,0 +1,45 @@
+= Guard::Ego
+
+Guard::Ego is the alter ego of Guard and will reload Guard when necessary.
+
+== Install
+
+Please be sure to have {guard}[http://github.com/guard/guard] installed before continue.
+
+Install the gem:
+
+    gem install guard-ego
+
+Add it to your Gemfile (inside test group):
+
+    gem 'guard-ego'
+
+Add guard definition to your Guardfile by running this command:
+
+    guard init ego
+
+== Usage
+
+Please read {guard usage doc}[http://github.com/guard/guard#readme]
+
+== Guardfile
+
+Passenger guard can be really be adapted to all kind of rack project with passenger.
+Please read {guard doc}[http://github.com/guard/guard#readme] for more info about Guardfile DSL.
+
+=== Standard usage
+
+    guard 'ego' do
+      watch('Guardfile')
+    end
+
+== Development
+
+- Source hosted at {GitHub}[http://github.com/guard/guard-ego]
+- Report issues/Questions/Feature requests on {GitHub Issues}[http://github.com/guard/guard-ego/issues]
+
+Pull requests are very welcome! Make sure your patches are well tested. Please create a topic branch for every separate change you make.
+
+== Authors
+
+{Fabio Kuhn}[http://github.com/mordaroso]
