@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-# Specify your gem's dependencies in guard-passenger.gemspec
+# Specify your gem's dependencies in guard-guard.gemspec
 gemspec
 
 # optional development dependencies

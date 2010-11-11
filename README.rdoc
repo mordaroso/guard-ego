@@ -24,7 +24,6 @@ Please read {guard usage doc}[http://github.com/guard/guard#readme]
 
 == Guardfile
 
-Passenger guard can be really be adapted to all kind of rack project with passenger.
 Please read {guard doc}[http://github.com/guard/guard#readme] for more info about Guardfile DSL.
 
 === Standard usage
