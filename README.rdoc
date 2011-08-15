@@ -2,6 +2,8 @@
 
 Guard::Ego is the alter ego of Guard and will reload Guard when necessary.
 
+== Warning: This functionality is now a feature in guard itself. This gem will not be maintained anymore.
+
 == Install
 
 Please be sure to have {guard}[http://github.com/guard/guard] installed before continue.
